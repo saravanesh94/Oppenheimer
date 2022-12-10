@@ -22,5 +22,21 @@ Home-page: https://robotframework.org
 
 
 Details about files uploaded:
-1. Automated functional testcase in robot framework 6.0.1 and attached the report also.
-2. Automated non-functional testcase in robot framework 6.0.1 and attached the report also.[5 failures are due to bug in the software]
+1. Automated functional testcase in robot framework 6.0.1 and attached the test report.
+2. Automated non-functional testcase in robot framework 6.0.1 and attached the report.[5 failures are due to bug in the oppenheimer software]
+
+Steps to run the robot file
+Install the below libraries in the laptop using pip command:
+
+requests                       2.28.1
+robotframework                 6.0.1
+robotframework-jsonlibrary     0.5
+robotframework-pythonlibcore   4.0.0
+robotframework-requests        0.9.4
+robotframework-seleniumlibrary 6.0.0
+
+run the function.robot file using the command: robot functional.robot
+
+For IDE, I have used pytharm community edition 2021.1
+
+
